@@ -1,4 +1,4 @@
-# livematrix
+# livechat is a livematrix implemenation for TextRP
 Chat with your website's visitors, using your Matrix client of choice.
 
 If you need help, you can ask here: **#livematrix:matrix.org**
