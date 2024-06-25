@@ -35,7 +35,7 @@ A quick note about encrytion being implemented: If you host the server on a VPS 
 
 
 
-### Chatting with visitor, through Element client:
+### Chatting with visitor, through TextRP:
 (Wait for the GIF to load...)
 
 ![demo_2](https://github.com/livematrix/.github/blob/main/images/demo02.gif?raw=true)
@@ -44,16 +44,14 @@ A quick note about encrytion being implemented: If you host the server on a VPS 
 
 ## 🛠️ How does it work? 
 
-There would be many ways of doing a live chat, for example, we could create a Matrix account for each visitor using an SDK that allows this on the browser. You could also use your own homeserver and [allow guests](https://spec.matrix.org/latest/client-server-api/#guest-access) . Why your own? Because most homeservers disallow guests. 
-
-The next best bet, and subjectively less cumbersome, is for you to create a new Matrix account and all visitor's chats will be mediated by it. Each new conversation is a new room. When a visitor starts a chat he/she needs to introduce their name, surname and email. If Melissa Brandon starts a chat, you'll receive an invitation on your personal account to join a room of the name `#Melissa_Brandon4212353:Matrix.org`
+You reate a new TextRP account and all visitor's chats will be mediated by it. Each new conversation is a new room. When a visitor starts a chat he/she needs to introduce their name, surname and email. If Melissa Brandon starts a chat, you'll receive an invitation on your personal account to join a room of the name `#Melissa_Brandon4212353:synapse.textrp.io`
 
 
 # 📗 How to use
 
 ##  :computer: client
 
-Built using Svelte, so everything goes in one nice bundle, its fast and awesome to embed. No need for external libraries or big framework.js files.
+Built using Svelte, so everything goes in one nice bundle, it's fast and awesome to embed. No need for external libraries or big framework.js files.
 Just import into your website's structure **one** JS and **one** CSS files. 
 
 To embed the widget is very straightforward, copy the following and paste on your index.html (or other):
