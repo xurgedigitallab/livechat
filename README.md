@@ -108,7 +108,7 @@ MATRIX_RECIPIENT=@username:matrix.org
 # Account used ONLY for mediation
 MATRIX_SERVER=matrix.privex.io
 MATRIX_USERNAME=@ousername:privex.io
-MATRIX_PASSWORD=password
+MATRIX_ACCESS_TOKEN=access_token
 
 # Time to wait until next login (in days)
 # Defautl: Access Token is kept for 7 days
